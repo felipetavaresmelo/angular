@@ -1,6 +1,14 @@
 # Angular
 ---
 
+## Screenshots
+
+### Tela principal
+
+![Tela principal](/frontend/src/assets/img/principal.png "Tela principal")
+
+---
+
 ## Backend
 
 ### Setup inicial
@@ -75,10 +83,3 @@ Pode ser utilizado o comando `ng generate component` mas também pode ser abrevi
 ng g c components/template/header
 ng g c components/template/footer
 ```
---- 
-
-## Screenshots
-
-### Tela principal
-
-![Tela principal](/frontend/src/assets/img/principal.png "Tela principal")
