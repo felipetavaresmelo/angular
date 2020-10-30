@@ -81,4 +81,4 @@ ng g c components/template/footer
 
 ### Tela principal
 
-![Tela principal][/frontend/src/assets/img/principal.png "Tela principal"]
+![Tela principal](/frontend/src/assets/img/principal.png "Tela principal")
