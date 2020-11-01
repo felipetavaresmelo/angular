@@ -75,11 +75,27 @@ ng add @angular/material
 npm start
 ```
 
-### Geração de componente
+### Geração de componentes
 
 Pode ser utilizado o comando `ng generate component` mas também pode ser abreviado, conforme abaixo:
 
 ```bash
 ng g c components/template/header
 ng g c components/template/footer
+ng g c components/template/nav
+ng g c views/home
+ng g c views/product-crud
 ```
+### Geração de diretivas
+
+Pode ser utilizado o comando `ng generate directives` mas também pode ser abreviado, conforme abaixo:
+
+```bash
+ng g d directives/red
+ng g d directives/for
+``` 
+
+
+## Plugin VS Code
+
+[steoates.autoimport](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
