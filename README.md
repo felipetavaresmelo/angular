@@ -70,7 +70,7 @@ Instalar o Material Design:
 ng add @angular/material
 ```
 
-### Inicializar o serviço
+### Inicializar o serviço de build do front
 ```bash
 npm start
 ```
@@ -88,11 +88,19 @@ ng g c views/product-crud
 ```
 ### Geração de diretivas
 
-Pode ser utilizado o comando `ng generate directives` mas também pode ser abreviado, conforme abaixo:
+Pode ser utilizado o comando `ng generate directive` mas também pode ser abreviado, conforme abaixo:
 
 ```bash
 ng g d directives/red
 ng g d directives/for
+``` 
+
+### Geração de services
+
+Pode ser utilizado o comando `ng generate service` mas também pode ser abreviado, conforme abaixo:
+
+```bash
+ng g s components/product/product
 ``` 
 
 
