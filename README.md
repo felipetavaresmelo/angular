@@ -77,7 +77,7 @@ npm start
 
 ### Geração de componentes
 
-Pode ser utilizado o comando `ng generate component` mas também pode ser abreviado, conforme abaixo:
+Pode ser utilizado o comando `ng generate component <diretorio/nome-do-componente>` mas também pode ser abreviado para `ng g c`, conforme abaixo:
 
 ```bash
 ng g c components/template/header
@@ -85,10 +85,22 @@ ng g c components/template/footer
 ng g c components/template/nav
 ng g c views/home
 ng g c views/product-crud
+ng g c components/product/product-read
+ng g c components/product/product-create
+ng g c components/product/product-update
 ```
+
+### Geração de componentes do Material Design com esquemas
+
+Pode ser utilizado o comando `ng generate @angular/material:<tipo-do-componente> <diretorio/nome-do-componente>`, conforme abaixo:
+
+```bash
+ng generate @angular/material:table components/product/product-read2
+```
+
 ### Geração de diretivas
 
-Pode ser utilizado o comando `ng generate directive` mas também pode ser abreviado, conforme abaixo:
+Pode ser utilizado o comando `ng generate directive <diretorio/nome-da-diretiva>` mas também pode ser abreviado, conforme abaixo:
 
 ```bash
 ng g d directives/red
@@ -97,7 +109,7 @@ ng g d directives/for
 
 ### Geração de services
 
-Pode ser utilizado o comando `ng generate service` mas também pode ser abreviado, conforme abaixo:
+Pode ser utilizado o comando `ng generate service <diretorio/nome-do-serviço>` mas também pode ser abreviado, conforme abaixo:
 
 ```bash
 ng g s components/product/product
@@ -107,3 +119,4 @@ ng g s components/product/product
 ## Plugin VS Code
 
 [steoates.autoimport](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
+[johnpapa.angular2](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
